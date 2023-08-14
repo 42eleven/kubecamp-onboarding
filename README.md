@@ -33,5 +33,9 @@ But fear not! We have gathered all of the information you might need in this doc
     * [Install kubectl on macOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos)
     * [Install kubectl on Windows](https://kubernetes.io/docs/tasks/tools/install-kubectl-windows)
 4. `stern`: this tool lets you tail logs from multiple k8s pods with ease! We will explore this more during the bootcamp, but all you need to care at the moment is to follow the [installation instructions](https://github.com/stern/stern#installation)!
+5. `kubectx + kubens`: tools to help you quickly change between k8s contexts and namespaces. [Installation instructions](https://github.com/ahmetb/kubectx#installation).
+6. `k9s`: cli that a lot of people find more convenient to use in order to manage k8s clusters. You can find the installation instructions [here](https://k9scli.io/topics/install/).
+7. `helm`: the package manager for Kubernetes! Please follow the installation [instructions](https://helm.sh/docs/intro/install/).
+8. `kustomize` is a template-free way to customize application configuration. Optionally install it by following [these](https://kubectl.docs.kubernetes.io/installation/kustomize/) instructions.
 
 We might need to install more tools during the bootcamp, but if you have this set already installed it will be an amazing start! 
